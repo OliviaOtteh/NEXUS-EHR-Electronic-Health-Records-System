@@ -7,10 +7,10 @@
 | **System Name** | NEXUS Electronic Health Records System |
 | **Version** | 1.0 |
 | **Classification** | Internal — Controlled |
-| **Prepared By** | ISSO |
+| **Prepared By** | ISSO | Chioma Otteh
 | **Reviewed By** | System Owner, ISSM |
 | **Approved By** | Authorising Official |
-| **Date** | 2025 |
+| **Date** | 2026 |
 | **References** | FIPS Publication 199; NIST SP 800-60 Vol 1 Rev 1; NIST SP 800-60 Vol 2 Rev 1 |
 
 ---
