@@ -31,7 +31,7 @@
 8. [Implications of HIGH Categorisation](#8-implications-of-high-categorisation)
 9. [Relationship to HIPAA Security Rule](#9-relationship-to-hipaa-security-rule)
 10. [Approval and Sign-off](#10-approval-and-sign-off)
-11. [GitHub Portfolio Integration Guide](#11-github-portfolio-integration-guide)
+
 
 ---
 
