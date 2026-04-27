@@ -169,7 +169,7 @@ Categorize Nexus using FIPS 199 and NIST SP 800-60 based on the sensitivity of d
 Select and tailor security controls from NIST SP 800-53 Rev 5 based on Nexus's High impact categorization.
 
 *Ref 3: Control Baseline Summary*
-![Control Baseline](./diagrams/Control_Baseline.png)
+![Control Baseline](./control-baseline-summary.md)
 
 ---
 
