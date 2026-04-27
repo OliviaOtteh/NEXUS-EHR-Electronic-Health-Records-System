@@ -205,7 +205,7 @@ Tailoring log: [03-select/tailoring-decisions.md](../03-select/tailoring-decisio
 > - **Status** — current implementation state
 > - **Responsible Party** — who owns this control
 >
-> Full control-by-control detail for all 221 controls is maintained in the [Control Implementation Statements](./control-implementation-statements.md) document.
+> Full control-by-control detail for all 221 controls is maintained in the [Control Implementation Statements](./IMP-control-implementation-statements.md) document.
 
 ---
 
