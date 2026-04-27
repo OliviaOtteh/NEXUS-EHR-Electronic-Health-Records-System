@@ -185,7 +185,7 @@ Document how each selected control is implemented within Nexus.
 Identify threats and vulnerabilities specific to a multi-site healthcare environment and rate them by likelihood and impact.
 
 *Ref 5: Risk Register*
-![Risk Register](./diagrams/Risk_Register.png)
+![Risk Register](./risk-register.md)
 
 ---
 
