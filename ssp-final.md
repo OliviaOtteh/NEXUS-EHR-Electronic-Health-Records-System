@@ -29,7 +29,6 @@
 9. [Laws, Regulations, and Policies](#section-9--laws-regulations-and-policies)
 10. [Plan of Action and Milestones](#section-10--plan-of-action-and-milestones)
 
----
 
 ## Section 1 — System Identification
 
@@ -52,7 +51,6 @@
 | Control Baseline | NIST SP 800-53 Rev 5 HIGH |
 | ATO Status | Pending — Awaiting Step 5 Assessment |
 
----
 
 ## Section 2 — System Description and Architecture
 
@@ -94,7 +92,6 @@ Untrusted external boundary. External users (patients, remote clinicians) access
 
 The AWS Cloud Zone and On-Premises Hospital Zone are connected via an **IPSec VPN Tunnel** (AES-256, certificate-based mutual authentication). PHI is never transmitted over the public internet unencrypted.
 
----
 
 ## Section 3 — System Environment
 
@@ -169,7 +166,6 @@ Per NIST SP 800-60 Vol 2, NEXUS processes the following primary information type
 | Billing and Financial Records | D.12 | HIGH | HIGH | Moderate |
 | Audit and Accountability Records | D.20 | HIGH | HIGH | Moderate |
 
-Full inventory: [02-categorise/data-inventory.md](../02-categorise/data-inventory.md)
 
 ---
 
@@ -191,7 +187,7 @@ Full inventory: [02-categorise/data-inventory.md](../02-categorise/data-inventor
 | SC — System and Comms Protection | 19 | TLS 1.3 preferred; TLS 1.0/1.1 disabled; CMK in AWS KMS |
 | SI — System and Info Integrity | 18 | Automated FIM alerts; de-identification procedures |
 
-Full detail: [03-select/control-baseline-summary.md](../03-select/control-baseline-summary.md)
+Full detail: [03-select/control-baseline-summary.md](../control-baseline-summary.md)
 Tailoring log: [03-select/tailoring-decisions.md](../03-select/tailoring-decisions.md)
 
 ---
