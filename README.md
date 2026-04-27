@@ -147,6 +147,9 @@ Definition of what Nexus is, who uses it, what data it handles, and where the sy
 *Ref 1: Architecture Diagram*
 [![Architecture Diagram](./diagrams/Architecture_Diagram.png)](./diagrams/Architecture_Diagram.png)
 
+---*Ref 1: Architecture Diagram*
+[![Architecture Diagram](./diagrams/Architecture_Diagram.png)](https://github.com/edwardchibuzo/Architecture_Diagram.png)
+
 ---
 
 ### **STEP 2 — SYSTEM CATEGORIZATION**
