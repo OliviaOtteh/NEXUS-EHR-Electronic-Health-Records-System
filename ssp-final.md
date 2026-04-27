@@ -144,7 +144,7 @@ Overall System Impact Level: HIGH
 | Integrity | HIGH | Corrupted clinical data (altered prescriptions, lab results, allergy records) directly threatens patient safety at the point of care — risk of death |
 | Availability | HIGH | NEXUS supports active real-time clinical care across all sites simultaneously; no viable manual fallback at 50,000+ daily transactions |
 
-Full analysis: [categorise/fips199-system-categorisation.md](../fips199-system-categorisation.md)
+Full analysis: [categorise/fips199-system-categorisation.md](./fips199-system-categorisation.md)
 
 ---
 
