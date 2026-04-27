@@ -161,7 +161,8 @@ Definition of what Nexus is, who uses it, what data it handles, and where the sy
 Categorize Nexus using FIPS 199 and NIST SP 800-60 based on the sensitivity of data handled.
 
 *Ref 2: FIPS 199 Categorization Table*
-![Categorization Table](./diagrams/FIPS199_Table.png)
+![Categorization Table](./diagrams/FIPS199_Table.png)](https://github.com/OliviaOtteh/Architecture_diagram.png)
+
 
 ---
 
