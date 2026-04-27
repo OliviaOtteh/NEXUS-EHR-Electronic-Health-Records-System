@@ -7,15 +7,15 @@
 | **System Name** | NEXUS Electronic Health Records System |
 | **Version** | 1.0 |
 | **Classification** | Internal — Controlled |
-| **Prepared By** | ISSO | Chioma Otteh
-| **Reviewed By** | System Owner, ISSM |
-| **Approved By** | Authorising Official |
+| **Prepared By** | Chioma Otteh| 
+| **Reviewed By** | Jack Taylor |
+| **Approved By** | Ben Jackson|
 | **Date** | 2026 |
 | **References** | FIPS Publication 199; NIST SP 800-60 Vol 1 Rev 1; NIST SP 800-60 Vol 2 Rev 1 |
 
 ---
 
-## 1. Purpose and Scope
+## Purpose and Scope
 
 This worksheet documents the security categorisation of the NEXUS Electronic Health Records System in accordance with:
 
@@ -27,7 +27,7 @@ The categorisation determines the potential impact to the organisation and to pa
 
 ---
 
-## 2. FIPS 199 Impact Level Definitions
+##  FIPS 199 Impact Level Definitions
 
 | Impact Level | Definition |
 |---|---|
@@ -39,7 +39,7 @@ The categorisation determines the potential impact to the organisation and to pa
 
 ---
 
-## 3. Information Types Processed by NEXUS
+##  Information Types Processed by NEXUS
 
 The following information types have been identified per NIST SP 800-60 Vol 2:
 
@@ -60,9 +60,9 @@ The following information types have been identified per NIST SP 800-60 Vol 2:
 
 ---
 
-## 4. Security Categorisation Analysis
+## Security Categorisation Analysis
 
-### 4.1 Confidentiality
+### Confidentiality
 
 **Definition:** Preserving authorised restrictions on information access and disclosure, including means for protecting personal privacy and proprietary information.
 
@@ -70,21 +70,20 @@ The following information types have been identified per NIST SP 800-60 Vol 2:
 
 The unauthorised disclosure of information processed by NEXUS would have a **HIGH** adverse effect because:
 
-1. **HIPAA violation and regulatory penalties:** Unauthorised disclosure of PHI constitutes a HIPAA breach. The Department of Health and Human Services (HHS) Office for Civil Rights (OCR) can impose civil monetary penalties of up to $1,919,173 per violation category per year. Criminal penalties under HIPAA can include imprisonment.
+ - **HIPAA violation and regulatory penalties:** Unauthorised disclosure of PHI constitutes a HIPAA breach. The Department of Health and Human Services (HHS) Office for Civil Rights (OCR) can impose civil monetary penalties of up to $1,919,173 per violation category per year. Criminal penalties under HIPAA can include imprisonment.
 
-2. **Patient harm:** Exposure of a patient's diagnosis (e.g. HIV status, mental health conditions, substance use), treatment history, or medication records can cause direct harm — including discrimination in employment, insurance denial, family or community harm, and psychological distress.
+- **Patient harm:** Exposure of a patient's diagnosis (e.g. HIV status, mental health conditions, substance use), treatment history, or medication records can cause direct harm — including discrimination in employment, insurance denial, family or community harm, and psychological distress.
 
-3. **Identity theft and fraud:** PII fields (SSN, date of birth, address, insurance ID) combined with PHI create a highly valuable dataset for identity theft and insurance fraud.
+- **Identity theft and fraud:** PII fields (SSN, date of birth, address, insurance ID) combined with PHI create a highly valuable dataset for identity theft and insurance fraud.
 
-4. **Loss of patient trust:** A breach affecting hundreds of thousands of patient records would severely and potentially irreparably damage public trust in Nexus Health System's ability to protect sensitive health information.
+- **Loss of patient trust:** A breach affecting hundreds of thousands of patient records would severely and potentially irreparably damage public trust in Nexus Health System's ability to protect sensitive health information.
 
-5. **Multi-site exposure:** The NEXUS breach surface spans multiple hospital sites, multiplying the potential number of affected individuals.
+- **Multi-site exposure:** The NEXUS breach surface spans multiple hospital sites, multiplying the potential number of affected individuals.
 
 **Confidentiality Impact Level: HIGH**
 
----
 
-### 4.2 Integrity
+###  Integrity
 
 **Definition:** Guarding against improper information modification or destruction, and ensuring information non-repudiation and authenticity.
 
@@ -92,23 +91,22 @@ The unauthorised disclosure of information processed by NEXUS would have a **HIG
 
 The unauthorised modification or destruction of information processed by NEXUS would have a **HIGH** adverse effect because:
 
-1. **Direct patient safety risk:** NEXUS is used at the point of clinical care. If a patient's allergy record, medication dosage, blood type, or lab result is altered — deliberately or through a technical failure — the result could be an incorrect clinical decision that harms or kills a patient. This is the highest possible individual-level consequence.
+- **Direct patient safety risk:** NEXUS is used at the point of clinical care. If a patient's allergy record, medication dosage, blood type, or lab result is altered — deliberately or through a technical failure — the result could be an incorrect clinical decision that harms or kills a patient. This is the highest possible individual-level consequence.
 
-2. **Prescription and medication integrity:** Manipulation of prescription records or medication administration logs (MAR) could result in patients receiving incorrect medications, doses, or harmful drug combinations.
+- **Prescription and medication integrity:** Manipulation of prescription records or medication administration logs (MAR) could result in patients receiving incorrect medications, doses, or harmful drug combinations.
 
-3. **Clinical decision support integrity:** NEXUS aggregates data to support clinical decisions (referrals, diagnoses, treatment plans). Corrupted input data produces corrupted clinical decisions.
+- **Clinical decision support integrity:** NEXUS aggregates data to support clinical decisions (referrals, diagnoses, treatment plans). Corrupted input data produces corrupted clinical decisions.
 
-4. **Legal and audit integrity:** Tampered or destroyed audit logs eliminate the ability to detect a breach, investigate incidents, or demonstrate HIPAA compliance. This alone constitutes a serious violation.
+- **Legal and audit integrity:** Tampered or destroyed audit logs eliminate the ability to detect a breach, investigate incidents, or demonstrate HIPAA compliance. This alone constitutes a serious violation.
 
-5. **Non-repudiation:** Clinical documentation must be attributable, time-stamped, and tamper-evident for medico-legal purposes. Loss of integrity undermines the legal validity of all records.
+- **Non-repudiation:** Clinical documentation must be attributable, time-stamped, and tamper-evident for medico-legal purposes. Loss of integrity undermines the legal validity of all records.
 
-6. **Cascading effect across sites:** A single corrupted patient record, propagated across the replication cluster to secondary databases, affects all clinical sites simultaneously.
+- **Cascading effect across sites:** A single corrupted patient record, propagated across the replication cluster to secondary databases, affects all clinical sites simultaneously.
 
 **Integrity Impact Level: HIGH**
 
----
 
-### 4.3 Availability
+### Availability
 
 **Definition:** Ensuring timely and reliable access to and use of information and the information system.
 
@@ -116,23 +114,22 @@ The unauthorised modification or destruction of information processed by NEXUS w
 
 The disruption of access to NEXUS would have a **HIGH** adverse effect because:
 
-1. **Active clinical care dependency:** Clinical staff across all hospital sites rely on NEXUS to access patient records at the point of care. A system outage during an active clinical shift means clinicians cannot access current medication lists, allergy records, lab results, or care plans. This is a direct patient safety risk.
+- **Active clinical care dependency:** Clinical staff across all hospital sites rely on NEXUS to access patient records at the point of care. A system outage during an active clinical shift means clinicians cannot access current medication lists, allergy records, lab results, or care plans. This is a direct patient safety risk.
 
-2. **No viable manual alternative at scale:** While downtime procedures exist (paper-based fallback), these are not sustainable at the volume of daily transactions NEXUS supports (~50,000 per day across all sites). Extended downtime degrades care quality and creates documentation backlogs.
+- **No viable manual alternative at scale:** While downtime procedures exist (paper-based fallback), these are not sustainable at the volume of daily transactions NEXUS supports (~50,000 per day across all sites). Extended downtime degrades care quality and creates documentation backlogs.
 
-3. **Emergency and critical care impact:** NEXUS is used in emergency department workflows, surgical scheduling, and ICU monitoring. Unavailability during time-critical care events (e.g. emergency surgery, resuscitation) could directly contribute to adverse patient outcomes.
+- **Emergency and critical care impact:** NEXUS is used in emergency department workflows, surgical scheduling, and ICU monitoring. Unavailability during time-critical care events (e.g. emergency surgery, resuscitation) could directly contribute to adverse patient outcomes.
 
-4. **Multi-site simultaneous impact:** Because NEXUS is centralised, a single availability failure affects all clinical sites simultaneously — not just one ward or building.
+- **Multi-site simultaneous impact:** Because NEXUS is centralised, a single availability failure affects all clinical sites simultaneously — not just one ward or building.
 
-5. **Regulatory requirement:** HIPAA requires covered entities to maintain contingency plans and ensure system availability for the ongoing provision of healthcare services.
+- **Regulatory requirement:** HIPAA requires covered entities to maintain contingency plans and ensure system availability for the ongoing provision of healthcare services.
 
-6. **Recovery complexity:** The hybrid architecture (AWS + on-premises) means recovery requires coordinated restoration across multiple environments — increasing recovery time and complexity.
+- **Recovery complexity:** The hybrid architecture (AWS + on-premises) means recovery requires coordinated restoration across multiple environments — increasing recovery time and complexity.
 
 **Note on planned downtime:** Scheduled maintenance windows (with advance notice and downtime procedures activated) are acceptable and do not constitute a violation of this impact level. Only unplanned or extended availability loss is rated HIGH.
 
 **Availability Impact Level: HIGH**
 
----
 
 ## 5. Security Categorisation Result
 
@@ -148,15 +145,14 @@ The disruption of access to NEXUS would have a **HIGH** adverse effect because:
 
 Using the high-water mark principle defined in FIPS 199 — the overall system categorisation is determined by the highest impact level across all three objectives:
 
-```
-SC NEXUS = {(Confidentiality, HIGH), (Integrity, HIGH), (Availability, HIGH)}
+Sytem Catergorization of NEXUS = {(Confidentiality, HIGH), (Integrity, HIGH), (Availability, HIGH)}
 
 Overall System Impact Level: HIGH
-```
+
 
 > The **high-water mark** rule means that if any single objective is rated HIGH, the overall system is HIGH. For NEXUS, all three objectives independently reach HIGH — making this a clearly and unambiguously HIGH impact system.
 
----
+
 
 ## 6. Implications of HIGH Categorisation
 
@@ -170,18 +166,17 @@ Overall System Impact Level: HIGH
 | **Penetration Testing** | Annual penetration test strongly recommended in addition to vulnerability scanning |
 | **Supply Chain Risk** | All third-party components and integrations must be assessed |
 
----
+
 
 ## 7. Approval and Sign-off
 
 | Role | Name | Signature | Date |
 |---|---|---|---|
-| ISSO | [Name] | _________________________ | 2025 |
-| System Owner | [Name] | _________________________ | 2025 |
-| ISSM | [Name] | _________________________ | 2025 |
-| Authorising Official | [Name] | _________________________ | 2025 |
+| ISSO | [Chioma Otteh | _________________________ | 2026 |
+| System Owner | [Jack Taylor] | _________________________ | 2026 |
+| ISSM | [Jack Taylor] | _________________________ | 2026 |
+| Authorising Official | [Ben Jackson] | _________________________ | 2026 |
 
----
 
 ## 8. References
 
@@ -194,6 +189,6 @@ Overall System Impact Level: HIGH
 | HIPAA Security Rule | 45 CFR Part 164, Subpart C |
 | HITECH Act | Health Information Technology for Economic and Clinical Health Act (2009) |
 
----
 
-*Document Owner: ISSO | Approved by: AO | Classification: Internal — Controlled*
+
+*Document Owner: Chioma Otteh | Approved by: Ben Jackson| Classification: Internal — Controlled*
