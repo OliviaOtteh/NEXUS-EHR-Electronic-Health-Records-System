@@ -10,10 +10,10 @@
 | **Classification** | Internal — Controlled |
 | **Baseline Applied** | NIST SP 800-53 Rev 5 — HIGH Impact Baseline |
 | **Tailoring Authority** | ISSO / System Owner / Authorising Official |
-| **Prepared By** | [ISSO Name], Lead Information Security Analyst |
-| **Reviewed By** | [System Owner Name], Director of Clinical Informatics |
-| **Approved By** | [AO Name], Chief Information Officer |
-| **Date** | 2025 |
+| **Prepared By** | [Chioma Otteh], Lead Information Security Analyst |
+| **Reviewed By** | [Jack Taylor], Director of Clinical Informatics |
+| **Approved By** | [Ben JAckson], Chief Information Officer |
+| **Date** | 2026|
 | **References** | NIST SP 800-53 Rev 5 · NIST SP 800-37 Rev 2 · FIPS 199 · HIPAA Security Rule 45 CFR Part 164 |
 
 ---
@@ -29,9 +29,9 @@
 7. [HIPAA Security Rule to NIST SP 800-53 Control Mapping](#7-hipaa-security-rule-to-nist-sp-800-53-control-mapping)
 8. [Control Ownership Matrix](#8-control-ownership-matrix)
 9. [Approval and Sign-off](#9-approval-and-sign-off)
-10. [GitHub Portfolio Integration](#10-github-portfolio-integration)
+   
 
----
+
 
 ## 1. Purpose and Scope
 
@@ -60,7 +60,6 @@ NEXUS is a hybrid EHR platform processing PHI and PII across a multi-site clinic
 | Active clinical care (patient safety) | Integrity controls elevated; zero tolerance for data corruption |
 | 500,000+ patient records | Privacy controls (PT family) applied in full |
 
----
 
 ## 2. Baseline Selection Rationale
 
@@ -95,7 +94,6 @@ Per NIST SP 800-37 Rev 2 §2.3, the following officials authorise tailoring deci
 | Scope out controls (with justification) | ISSO with AO approval |
 | Document inherited controls | ISSO |
 
----
 
 ## 3. Tailoring Overview
 
@@ -118,7 +116,7 @@ Per NIST SP 800-37 Rev 2 §2.3, the following officials authorise tailoring deci
 4. **Least privilege:** All access control parameters set to minimum necessary for role function
 5. **Defence in depth:** Multiple overlapping controls applied for PHI protection
 
----
+
 
 ## 4. Control Baseline Summary Table — All 20 Families
 
@@ -131,7 +129,6 @@ Per NIST SP 800-37 Rev 2 §2.3, the following officials authorise tailoring deci
 > - 🟡 High priority for NEXUS
 > - 🟢 Moderate priority for NEXUS
 
----
 
 ### AC — Access Control 🔴 Critical
 
@@ -161,7 +158,7 @@ Per NIST SP 800-37 Rev 2 §2.3, the following officials authorise tailoring deci
 | AC-20 | Use of External Systems | ✅ | §164.308(b)(1) | BAA required before PHI access from external system |
 | AC-22 | Publicly Accessible Content | ✅ | §164.308(a)(1) | Patient portal reviewed — no unauthorised PHI exposure |
 
----
+
 
 ### AT — Awareness and Training 🟡 High
 
@@ -197,7 +194,7 @@ Per NIST SP 800-37 Rev 2 §2.3, the following officials authorise tailoring deci
 | AU-13 | Monitoring for Information Disclosure | ➕ | §164.308(a)(1)(ii)(D) | Added: SIEM rules for bulk PHI export detection |
 | AU-14 | Session Audit | ✅ | §164.312(b) | Full session recording for privileged users |
 
----
+
 
 ### CA — Assessment, Authorisation, and Monitoring 🔴 Critical
 
@@ -213,7 +210,7 @@ Per NIST SP 800-37 Rev 2 §2.3, the following officials authorise tailoring deci
 | CA-8 | Penetration Testing | ➕ | §164.308(a)(8) | Added: annual third-party penetration test |
 | CA-9 | Internal System Connections | ✅ | §164.312(e)(1) | VPN tunnel and internal connections documented |
 
----
+
 
 ### CM — Configuration Management 🟡 High
 
@@ -232,7 +229,7 @@ Per NIST SP 800-37 Rev 2 §2.3, the following officials authorise tailoring deci
 | CM-10 | Software Usage Restrictions | ✅ | §164.308(a)(1) | Software allowlist enforced on all endpoints |
 | CM-12 | Information Location | ➕ | §164.308(a)(1) | Added: PHI data flow mapping maintained |
 
----
+
 
 ### CP — Contingency Planning 🔴 Critical
 
@@ -252,7 +249,7 @@ Per NIST SP 800-37 Rev 2 §2.3, the following officials authorise tailoring deci
 | CP-11 | Alternate Communications Protocols | ✅ | §164.308(a)(7) | Backup communication path for inter-site connectivity |
 | CP-13 | Alternative Security Mechanisms | ➕ | §164.308(a)(7) | Paper-based downtime procedures activated during outage |
 
----
+
 
 ### IA — Identification and Authentication 🔴 Critical
 
@@ -272,7 +269,7 @@ Per NIST SP 800-37 Rev 2 §2.3, the following officials authorise tailoring deci
 | IA-7 | Cryptographic Module Authentication | ✅ | §164.312(e)(2)(ii) | FIPS 140-2 validated cryptographic modules |
 | IA-8 | Identification and Authentication (Non-Organisational Users) | ✅ | §164.312(d) | Patient portal — separate authentication scheme |
 
----
+
 
 ### IR — Incident Response 🔴 Critical
 
@@ -289,7 +286,6 @@ Per NIST SP 800-37 Rev 2 §2.3, the following officials authorise tailoring deci
 | IR-7 | Incident Response Assistance | ✅ | §164.308(a)(6) | IR retainer with third-party forensics firm |
 | IR-8 | Incident Response Plan | ✅ | §164.308(a)(6)(ii) | HIPAA breach notification plan integrated |
 
----
 
 ### MP — Media Protection 🟡 High
 
@@ -304,7 +300,7 @@ Per NIST SP 800-37 Rev 2 §2.3, the following officials authorise tailoring deci
 | MP-7 | Media Use | ✅ | §164.310(d)(1) | USB storage disabled on clinical endpoints via MDM |
 | MP-8 | Media Downgrading | ✅ | §164.310(d)(2) | Formal downgrade process before any media re-use |
 
----
+
 
 ### PE — Physical and Environmental Protection 🟢 Moderate
 
@@ -325,7 +321,7 @@ Per NIST SP 800-37 Rev 2 §2.3, the following officials authorise tailoring deci
 | PE-16 | Delivery and Removal | ✅ | §164.310(d)(2) | Equipment intake and removal procedures |
 | PE-17 | Alternate Work Site | ✅ | §164.308(a)(7) | Remote work VPN controls aligned with AC-17 |
 
----
+
 
 ### PL — Planning 🟢 Moderate
 
@@ -336,7 +332,7 @@ Per NIST SP 800-37 Rev 2 §2.3, the following officials authorise tailoring deci
 | PL-4 | Rules of Behaviour | ✅ | §164.308(a)(5)(ii)(C) | HIPAA acceptable use policy signed annually |
 | PL-8 | Security and Privacy Architectures | ✅ | §164.308(a)(1) | System boundary diagram; data flow documentation |
 
----
+
 
 ### PM — Program Management 🟡 High
 
@@ -352,7 +348,7 @@ Per NIST SP 800-37 Rev 2 §2.3, the following officials authorise tailoring deci
 | PM-15 | Contacts with Security Groups | ✅ | §164.308(a)(1) | ISAC membership; CISA liaison |
 | PM-16 | Threat Awareness Program | ➕ | §164.308(a)(1) | Added: healthcare-specific threat intelligence (H-ISAC) |
 
----
+
 
 ### PS — Personnel Security 🟡 High
 
@@ -368,7 +364,7 @@ Per NIST SP 800-37 Rev 2 §2.3, the following officials authorise tailoring deci
 | PS-8 | Personnel Sanctions | ✅ | §164.308(a)(1)(ii)(C) | HIPAA violation — disciplinary policy in place |
 | PS-9 | Position Descriptions | ✅ | §164.308(a)(3) | Security responsibilities included in all job descriptions |
 
----
+
 
 ### PT — PII Processing and Transparency 🔴 Critical
 
@@ -383,7 +379,7 @@ Per NIST SP 800-37 Rev 2 §2.3, the following officials authorise tailoring deci
 | PT-7 | Specific Categories of PII | ➕ | §164.514(b)(2) | Added: all 18 HIPAA Safe Harbour identifiers controlled |
 | PT-8 | Computer Matching Requirements | ✅ | §164.514 | Data matching governed by minimum necessary standard |
 
----
+
 
 ### RA — Risk Assessment 🔴 Critical
 
@@ -400,7 +396,7 @@ Per NIST SP 800-37 Rev 2 §2.3, the following officials authorise tailoring deci
 | RA-9 | Criticality Analysis | ✅ | §164.308(a)(1) | PHI subsystems identified as critical |
 | RA-10 | Threat Hunting | ➕ | §164.308(a)(1)(ii)(D) | Added: quarterly threat hunting exercises via SIEM |
 
----
+
 
 ### SA — System and Services Acquisition 🟡 High
 
@@ -418,7 +414,7 @@ Per NIST SP 800-37 Rev 2 §2.3, the following officials authorise tailoring deci
 | SA-11 | Developer Testing and Evaluation | ✅ | §164.308(a)(8) | Security testing required for all NEXUS updates |
 | SA-22 | Unsupported System Components | ➕ | §164.308(a)(1) | Added: EOL component inventory; no unsupported OS in PHI path |
 
----
+
 
 ### SC — System and Communications Protection 🔴 Critical
 
@@ -444,7 +440,7 @@ Per NIST SP 800-37 Rev 2 §2.3, the following officials authorise tailoring deci
 | SC-28(1) | Protection at Rest — Cryptographic Protection | ➕ | §164.312(a)(2)(iv) | Added: customer-managed keys (CMK) in AWS KMS |
 | SC-39 | Process Isolation | ✅ | §164.308(a)(1) | Application processes isolated per function |
 
----
+
 
 ### SI — System and Information Integrity 🔴 Critical
 
@@ -469,7 +465,7 @@ Per NIST SP 800-37 Rev 2 §2.3, the following officials authorise tailoring deci
 | SI-18 | PII Quality Operations | ➕ | §164.308(a)(1) | Added: data quality controls for PHI accuracy |
 | SI-19 | De-identification | ➕ | §164.514(b) | Added: de-identification procedures for data shared for research |
 
----
+
 
 ### SR — Supply Chain Risk Management 🟢 Moderate
 
@@ -484,7 +480,7 @@ Per NIST SP 800-37 Rev 2 §2.3, the following officials authorise tailoring deci
 | SR-10 | Inspection of Systems | ✅ | §164.308(b)(1) | IoT devices inspected before deployment |
 | SR-11 | Component Authenticity | ✅ | §164.308(b)(1) | Hardware components verified through trusted suppliers |
 
----
+
 
 ## 5. Priority Controls Detail — Critical Families for NEXUS
 
@@ -516,7 +512,6 @@ This section provides additional detail on the highest-priority controls specifi
 - Minimum retention: **6 years** (HIPAA minimum)
 - Logs include: user ID, timestamp (NTP-synchronised), event type, patient record ID accessed, source IP, outcome (success/failure)
 
----
 
 ### 5.3 Identification and Authentication — IA-2 MFA Extensions
 
@@ -530,7 +525,6 @@ This section provides additional detail on the highest-priority controls specifi
 - SMS OTP not accepted (SIM-swapping vulnerability)
 - Patient portal: MFA offered; strongly encouraged but not yet mandatory
 
----
 
 ### 5.4 System and Communications Protection — SC-8/SC-28: Encryption
 
@@ -543,7 +537,6 @@ This section provides additional detail on the highest-priority controls specifi
 - **VPN:** IPSec with AES-256 and certificate-based mutual authentication
 - **IoT:** Device-level encryption on all medical IoT data transmissions
 
----
 
 ### 5.5 Incident Response — IR-6: Breach Notification (HIPAA-Enhanced)
 
@@ -560,7 +553,7 @@ This section provides additional detail on the highest-priority controls specifi
 - If 500+ individuals affected: media notice in affected state required
 - All breach investigations documented and retained for 6 years
 
----
+
 
 ## 6. Inherited Controls — AWS Shared Responsibility
 
@@ -579,7 +572,7 @@ The following controls are fully or partially inherited from Amazon Web Services
 2. Document the inheritance in the SSP
 3. Ensure the inherited control actually covers the NEXUS use case
 
----
+
 
 ## 7. HIPAA Security Rule to NIST SP 800-53 Control Mapping
 
@@ -604,7 +597,7 @@ The following controls are fully or partially inherited from Amazon Web Services
 | Person Authentication | §164.312(d) | IA-2, IA-4, IA-5 |
 | Transmission Security | §164.312(e) | SC-8, AC-17, AC-4 |
 
----
+
 
 ## 8. Control Ownership Matrix
 
@@ -631,62 +624,17 @@ The following controls are fully or partially inherited from Amazon Web Services
 | SI — System and Info Integrity | ISSO | System Administrator | Partial (cloud) |
 | SR — Supply Chain Risk | System Owner | ISSO | No |
 
----
+
 
 ## 9. Approval and Sign-off
 
 | Role | Name | Signature | Date |
 |---|---|---|---|
-| Prepared By | [ISSO Name] | _________________________ | 2025 |
-| Reviewed By | [System Owner Name] | _________________________ | 2025 |
-| Reviewed By | [ISSM Name] | _________________________ | 2025 |
-| **Approved By** | **[AO Name]** | _________________________ | **2025** |
+| Prepared By | [Chioma Otteh] | _________________________ | 2026 |
+| Reviewed By | [Jack Taylor] | _________________________ | 2026|
+| Reviewed By | [Jack Taylor] | _________________________ | 2026 |
+| **Approved By** | **[Ben Jackson]** | _________________________ | **2026** |
 
 ---
 
-## 10. GitHub Portfolio Integration
-
-### Where This Document Lives
-
-```
-nexus-ehr-rmf/
-├── README.md
-├── architecture-diagram.png
-├── 01-prepare/
-├── 02-categorise/
-├── 03-select/                            ← THIS STEP
-│   ├── README.md                         ← Step 3 overview
-│   ├── control-baseline-summary.md       ← THIS FILE (Ref 3)
-│   ├── tailoring-decisions.md
-│   └── control-selection-worksheet.md
-├── 04-implement/
-├── 05-assess/
-├── 06-authorise/
-└── 07-monitor/
-```
-
-### Upload Instructions
-
-1. In your `nexus-ehr-rmf` repository, click **Add file → Create new file**
-2. Type the file path: `03-select/control-baseline-summary.md`
-3. Paste the contents of this file
-4. Commit message: `Step 3: Add Control Baseline Summary (Ref 3) — NIST 800-53 HIGH baseline — NEXUS EHR`
-5. Update `03-select/README.md` to link to this file
-6. Update root `README.md` Step 3 row to show: ✅ Complete
-
-### Root README Update
-
-```markdown
-| 3 | [Select Controls](./03-select/) | ✅ Complete | 800-53 HIGH baseline · 20 families · HIPAA-mapped · AWS inherited controls |
-```
-
-### LinkedIn Update
-
-Add to your NEXUS project description:
-
-> Step 3 complete: Selected and tailored the full NIST SP 800-53 Rev 5 HIGH baseline across all 20 control families for NEXUS EHR. Documented HIPAA Security Rule to 800-53 control mapping, 18 tailoring enhancements, AWS inherited control inventory, and a complete control ownership matrix. Produced the formal Control Baseline Summary (Reference 3).
-
----
-
-*Document Reference: NEXUS-RMF-SEL-001 | Version 1.0 | Classification: Internal — Controlled*
-*NEXUS EHR is a fictional system created for GRC portfolio demonstration purposes.*
+## 
