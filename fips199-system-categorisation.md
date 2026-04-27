@@ -388,11 +388,11 @@ This categorisation has been reviewed and approved by the following authorised i
 
 | Role | Name | Title | Signature | Date |
 |---|---|---|---|---|
-| Prepared By | [ISSO Name] | Lead Information Security Analyst | _________________________ | 2025 |
-| Reviewed By | [System Owner Name] | Director of Clinical Informatics | _________________________ | 2025 |
-| Reviewed By | [ISSM Name] | Deputy Chief Information Security Officer | _________________________ | 2025 |
-| Reviewed By | [Privacy Officer Name] | Chief Privacy Officer | _________________________ | 2025 |
-| **Approved By** | **[AO Name]** | **Chief Information Officer (Authorising Official)** | _________________________ | **2025** |
+| Prepared By | [ISSO Name] | Lead Information Security Analyst | _________________________ | 2026 |
+| Reviewed By | [System Owner Name] | Director of Clinical Informatics | _________________________ | 2026 |
+| Reviewed By | [ISSM Name] | Deputy Chief Information Security Officer | _________________________ | 2026|
+| Reviewed By | [Privacy Officer Name] | Chief Privacy Officer | _________________________ | 2026|
+| **Approved By** | **[AO Name]** | **Chief Information Officer (Authorising Official)** | _________________________ | **2026** |
 
 ### Review Schedule
 
@@ -406,134 +406,4 @@ This categorisation has been reviewed and approved by the following authorised i
 
 ---
 
-## 11. GitHub Portfolio Integration Guide
-
-This section provides step-by-step instructions for adding this categorisation document to your **NEXUS Electronic Health Records System** GitHub project portfolio.
-
-### 11.1 Where This Document Lives in Your Repository
-
-```
-nexus-ehr-rmf/
-├── README.md                              ← Root portfolio overview
-├── architecture-diagram.png
-│
-├── 01-prepare/
-│   ├── README.md
-│   ├── system-characterisation.md
-│   ├── roles-and-responsibilities.md
-│   └── risk-tolerance-statement.md
-│
-├── 02-categorise/                         ← THIS DOCUMENT LIVES HERE
-│   ├── README.md
-│   ├── fips199-system-categorisation.md  ← THIS FILE
-│   ├── data-inventory.md
-│   └── ssp-draft.md
-│
-├── 03-select/
-├── 04-implement/
-├── 05-assess/
-├── 06-authorise/
-└── 07-monitor/
-```
-
-### 11.2 Step-by-Step: Adding to GitHub
-
-**Step 1 — Navigate to your repository**
-```
-https://github.com/YOUR_USERNAME/nexus-ehr-rmf
-```
-
-**Step 2 — Create the file path**
-1. Click **"Add file"** → **"Create new file"**
-2. In the filename box, type exactly:
-   ```
-   02-categorise/fips199-system-categorisation.md
-   ```
-   GitHub automatically creates the `02-categorise/` folder when you include it in the path.
-
-**Step 3 — Paste the content**
-Copy the entire contents of this file and paste into the editor.
-
-**Step 4 — Commit the file**
-- Commit message: `Add FIPS 199 System Categorisation — NEXUS EHR (HIGH impact)`
-- Select: **Commit directly to the `main` branch**
-- Click **"Commit new file"**
-
-**Step 5 — Update `02-categorise/README.md`**
-Edit your `02-categorise/README.md` to include a link to this file:
-
-```markdown
-| [FIPS 199 System Categorisation](./fips199-system-categorisation.md) | Full categorisation table and security objective analysis | ✅ Complete |
-```
-
-**Step 6 — Update the root README.md badge**
-In your root `README.md`, update the categorisation row:
-
-```markdown
-| 2 | [Categorise](./02-categorise/) | ✅ Complete | FIPS 199 — HIGH impact across all objectives |
-```
-
-### 11.3 Linking to Your Portfolio Profile
-
-**Option A — GitHub Profile README**
-
-If you have a profile README (`YOUR_USERNAME/YOUR_USERNAME`), add this to your Projects section:
-
-```markdown
-## Featured Projects
-
-### 🏥 NEXUS EHR — End-to-End RMF Implementation
-A complete NIST SP 800-37 Rev 2 Risk Management Framework implementation
-for a HIPAA-regulated hybrid Electronic Health Records system.
-
-**Highlights:**
-- FIPS 199 HIGH impact categorisation across all three security objectives
-- Full system boundary architecture (AWS Cloud + On-Premises hybrid)
-- NIST SP 800-53 Rev 5 HIGH control baseline
-- Complete PHI/PII data inventory with 18 HIPAA identifiers mapped
-- Roles and responsibilities matrix with RACI
-- Risk tolerance statement — AO-approved
-
-[![View Project](https://img.shields.io/badge/View%20Project-NEXUS%20EHR%20RMF-5c3d99)](https://github.com/YOUR_USERNAME/nexus-ehr-rmf)
-![Impact](https://img.shields.io/badge/FIPS%20199-HIGH%20Impact-cc2222)
-![HIPAA](https://img.shields.io/badge/Compliance-HIPAA%20%7C%20HITECH-2d7a2d)
-```
-
-**Option B — Pin the repository**
-1. Go to your GitHub profile
-2. Click **"Customize your pins"**
-3. Select **nexus-ehr-rmf**
-4. Click **Save** — the repo card now appears on your profile
-
-**Option C — LinkedIn Project Entry**
-
-Add a new Project on LinkedIn:
-
-> **Project name:** NEXUS EHR — NIST RMF Implementation (GRC Portfolio Project)
->
-> **Description:** Designed and implemented a complete end-to-end NIST SP 800-37 Rev 2 Risk Management Framework for NEXUS, a fictional HIPAA-regulated hybrid Electronic Health Records System. Completed formal FIPS 199 security categorisation (HIGH impact across Confidentiality, Integrity, and Availability), full data inventory mapping 18 HIPAA PHI identifiers, NIST SP 800-60 information type mapping, and a signed risk tolerance statement. Built across a 7-step RMF structure documented entirely in GitHub Markdown.
->
-> **Skills demonstrated:** GRC · NIST RMF · HIPAA · FIPS 199 · NIST SP 800-53 · Risk Assessment · Security Categorisation · Security Documentation
->
-> **Link:** https://github.com/YOUR_USERNAME/nexus-ehr-rmf
-
-### 11.4 Recommended Commit Message Convention
-
-Use consistent commit messages across your project so your GitHub activity log tells a professional story:
-
-```
-Step 1: Add system characterisation — NEXUS EHR
-Step 1: Add roles and responsibilities matrix — NEXUS EHR
-Step 1: Add risk tolerance statement — NEXUS EHR (AO-approved)
-Step 2: Add FIPS 199 system categorisation — HIGH impact
-Step 2: Add data inventory — 18 HIPAA PHI identifiers mapped
-Step 2: Add SSP draft — sections 1-4 complete
-Step 3: Add control selection worksheet — 800-53 HIGH baseline
-```
-
-This creates a clean, readable contribution history that any GRC reviewer or hiring manager can follow.
-
----
-
-*Document Reference: NEXUS-RMF-CAT-001 | Version 1.0 | Classification: Internal — Controlled*
-*NEXUS EHR is a fictional system created for GRC portfolio demonstration purposes.*
+## 
