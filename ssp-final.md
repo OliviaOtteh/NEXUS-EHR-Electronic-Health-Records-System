@@ -187,8 +187,8 @@ Per NIST SP 800-60 Vol 2, NEXUS processes the following primary information type
 | SC — System and Comms Protection | 19 | TLS 1.3 preferred; TLS 1.0/1.1 disabled; CMK in AWS KMS |
 | SI — System and Info Integrity | 18 | Automated FIM alerts; de-identification procedures |
 
-Full detail: [03-select/control-baseline-summary.md](../control-baseline-summary.md)
-Tailoring log: [03-select/tailoring-decisions.md](../tailoring-decisions.md)
+Full detail: [select/control-baseline-summary.md](./control-baseline-summary.md)
+Tailoring log: [-select/tailoring-decisions.md](./tailoring-decisions.md)
 
 ---
 
