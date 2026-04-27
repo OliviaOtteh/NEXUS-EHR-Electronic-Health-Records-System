@@ -1,10 +1,20 @@
 ## NEXUS EHR (Electronic Health Records System)
-A simulated NIST RMF portfolio project for Nexus, a fictional Integrated Health Records System (IHR). Covers system categorization, control selection, SSP, risk assessment, POA&M, ATO, and continuous monitoring. Built for learning purposes only.
+A simulated NIST RMF portfolio project for Nexus, a fictional Integrated Health Records System EHR). Covers system categorization, control selection, SSP, risk assessment, POA&M, ATO, and continuous monitoring. Built for learning purposes only.
+
+
+# PROJECT NAME
+
+# 🏥 NEXUS— ELECTRONIC HEALTH RECORDS SYSTEM
+**Document Type:** System Overview
+**System Name:** Nexus
+**Version:** 1.0
+**Status:** Draft
+**Classification:** Unclassified — For Portfolio Use Only
 
 
 ## **OBJECTIVE**
 
-This project simulates an end-to-end NIST Risk Management Framework (RMF) authorization process for Nexus, a fictional Integrated Health Records System (IHR). The primary focus is to demonstrate practical understanding of system categorization, security control selection, implementation, assessment, authorization, and continuous monitoring of a healthcare system that processes Protected Health Information (PHI) and Personally Identifiable Information (PII).
+This project simulates an end-to-end NIST Risk Management Framework (RMF) authorization process for Nexus, a fictional Electronic Health Records System (EHR). The primary focus is to demonstrate practical understanding of system categorization, security control selection, implementation, assessment, authorization, and continuous monitoring of a healthcare system that processes Protected Health Information (PHI) and Personally Identifiable Information (PII).
 
 This hands-on project is designed to build and demonstrate real-world GRC and security documentation skills in a healthcare compliance context.
 
@@ -22,7 +32,6 @@ This hands-on project is designed to build and demonstrate real-world GRC and se
 - Authorization to Operate (ATO) package development
 - Continuous monitoring strategy and scheduling
 
----
 
 ## **TOOLS USED**
 
@@ -37,15 +46,14 @@ This hands-on project is designed to build and demonstrate real-world GRC and se
 | **GitHub** | Project hosting and version control |
 | **NIST RMF Cybersecurity Framework** | Overall project structure |
 
----
 
 ## **1. SYSTEM DESCRIPTION**
 
-Nexus is a hybrid Integrated Health Records System designed to support comprehensive healthcare operations across multi-site clinical environments. The system enables healthcare providers to manage patient records, lab results, referrals, appointments, billing, and clinical documentation in a secure and centralized environment.
+Nexus is a hybrid Electronic Health Records System designed to support comprehensive day to day healthcare operations across multi-site clinical environments. The system enables healthcare providers to manage patient records, lab results, referrals, appointments, billing, and clinical documentation in a secure and centralized environment.
 
 Nexus processes, stores, and transmits sensitive health information including Protected Health Information (PHI) and Personally Identifiable Information (PII), making security and compliance a critical priority.
 
----
+
 
 ## **2. SYSTEM PURPOSE AND MISSION**
 
@@ -59,7 +67,6 @@ The primary mission of Nexus is to:
 - Generate operational, clinical, and compliance reports
 - Maintain comprehensive audit logs for security and regulatory purposes
 
----
 
 ## **3. SYSTEM USERS**
 
@@ -74,7 +81,7 @@ The primary mission of Nexus is to:
 | **System Administrators** | Manage system configuration, user accounts, and integrations |
 | **Security Team** | Monitor system security, respond to incidents, and conduct audits |
 
----
+
 
 ## **4. SYSTEM ENVIRONMENT**
 
@@ -92,7 +99,6 @@ Nexus operates in a **hybrid environment** consisting of:
 | Clinician Endpoints | On-Premise |
 | Patient Portal | Cloud-hosted (Azure) |
 
----
 
 ## **5. DATA HANDLED BY NEXUS**
 
@@ -108,7 +114,7 @@ Nexus operates in a **hybrid environment** consisting of:
 | **Audit Logs** | System activity and access records | Moderate |
 | **Authentication Data** | Login credentials and session tokens | High |
 
----
+
 
 ## **6. SYSTEM COMPONENTS**
 
@@ -144,13 +150,11 @@ Nexus operates in a **hybrid environment** consisting of:
 ### **STEP 1 — SYSTEM OVERVIEW AND BOUNDARY DEFINITION**
 Definition of what Nexus is, who uses it, what data it handles, and where the system boundary begins and ends.
 
+
 *Ref 1: Architecture Diagram*
-[![Architecture Diagram](./diagrams/Architecture_Diagram.png)](./diagrams/Architecture_Diagram.png)
+[![Architecture Diagram](./diagrams/Architecture_Diagram.png)](https://github.com/OliviaOtteh/Architecture_diagram.png)
 
----*Ref 1: Architecture Diagram*
-[![Architecture Diagram](./diagrams/Architecture_Diagram.png)](https://github.com/edwardchibuzo/Architecture_Diagram.png)
 
----
 
 ### **STEP 2 — SYSTEM CATEGORIZATION**
 Categorize Nexus using FIPS 199 and NIST SP 800-60 based on the sensitivity of data handled.
