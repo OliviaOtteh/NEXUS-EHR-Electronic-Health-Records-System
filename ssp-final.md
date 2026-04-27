@@ -188,7 +188,7 @@ Per NIST SP 800-60 Vol 2, NEXUS processes the following primary information type
 | SI — System and Info Integrity | 18 | Automated FIM alerts; de-identification procedures |
 
 Full detail: [03-select/control-baseline-summary.md](../control-baseline-summary.md)
-Tailoring log: [03-select/tailoring-decisions.md](../03-select/tailoring-decisions.md)
+Tailoring log: [03-select/tailoring-decisions.md](../tailoring-decisions.md)
 
 ---
 
