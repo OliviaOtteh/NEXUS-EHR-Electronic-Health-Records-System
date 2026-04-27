@@ -1,5 +1,5 @@
 # Data Inventory
-### NEXUS Electronic Health Records System | Step 2 — Categorise
+### NEXUS Electronic Health Records System | Categorise
 
 | Field | Value |
 |---|---|
@@ -7,17 +7,17 @@
 | **System Name** | NEXUS Electronic Health Records System |
 | **Version** | 1.0 |
 | **Classification** | Internal — Controlled |
-| **Last Updated** | 2025 |
+| **Last Updated** | 2026 |
 
----
 
-## 1. Purpose
+
+##  Purpose
 
 This inventory documents all categories of data processed, stored, or transmitted by NEXUS. It supports the FIPS 199 categorisation, informs control selection, and satisfies HIPAA requirements for knowing where PHI resides across the system.
 
 ---
 
-## 2. Complete Data Inventory
+##  Complete Data Inventory
 
 | Data Element | Classification | Contains PHI | Contains PII | Storage Location | Encrypted at Rest | Encrypted in Transit | Retention Period | Regulatory Requirement |
 |---|---|---|---|---|---|---|---|---|
@@ -43,7 +43,7 @@ This inventory documents all categories of data processed, stored, or transmitte
 
 ---
 
-## 3. PHI Data Elements Inventory
+## PHI Data Elements Inventory
 
 The following specific PHI data elements are processed by NEXUS as defined under HIPAA 45 CFR §164.514(b)(2):
 
@@ -70,11 +70,10 @@ The following specific PHI data elements are processed by NEXUS as defined under
 
 > **All 18 HIPAA Safe Harbour identifiers that are present in NEXUS must be treated as PHI and subject to all applicable HIPAA Security Rule safeguards.**
 
----
 
-## 4. Data Flow Summary
+##  Data Flow Summary
 
-```
+
 External Users / Patients
         |
         | HTTPS (TLS 1.2+)
@@ -101,11 +100,9 @@ External Users / Patients
 [AWS Private Subnet]
   - AWS Backup Vault
   - Amazon S3
-```
 
----
 
-## 5. Third-Party Data Sharing
+##  Third-Party Data Sharing
 
 | Third Party | Data Shared | Legal Basis | Agreement in Place |
 |---|---|---|---|
@@ -119,7 +116,7 @@ External Users / Patients
 
 ---
 
-## 6. Data at Rest — Encryption Summary
+##  Data at Rest — Encryption Summary
 
 | Location | Encryption Standard | Key Management |
 |---|---|---|
@@ -131,7 +128,7 @@ External Users / Patients
 
 ---
 
-## 7. Data in Transit — Encryption Summary
+##  Data in Transit — Encryption Summary
 
 | Connection | Protocol | Minimum TLS Version |
 |---|---|---|
@@ -145,4 +142,4 @@ External Users / Patients
 
 ---
 
-*Document Owner: ISSO | Reviewed by: System Owner, Privacy Officer | Classification: Internal — Controlled*
+*Document Owner: Chioma Otteh | Reviewed by: Jack Taylor | Classification: Internal — Controlled*
