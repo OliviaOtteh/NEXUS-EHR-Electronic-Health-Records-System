@@ -1,7 +1,6 @@
 # FIPS 199 System Categorisation
 ## NEXUS Electronic Health Records System
 
----
 
 | Field | Detail |
 |---|---|
