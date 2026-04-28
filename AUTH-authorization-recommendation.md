@@ -12,10 +12,10 @@
 ║                                                                          ║
 ║         Document Reference : NEXUS-RMF-AUTH-003                         ║
 ║         Classification     : Internal — Controlled                       ║
-║         Prepared By        : [ISSO Name], Lead Information               ║
+║         Prepared By        : Chioma Otteh, Lead Information               ║
 ║                              Security Analyst                            ║
-║         Reviewed By        : [ISSM Name], Deputy CISO                   ║
-║         Submitted To       : [AO Name], Chief Information Officer        ║
+║         Reviewed By        : Jack Taylor, Deputy CISO                   ║
+║         Submitted To       : Ben Jackson, Chief Information Officer        ║
 ║         Date               : 2026                                    ║
 ║                                                                          ║
 ╚══════════════════════════════════════════════════════════════════════════╝
@@ -33,9 +33,9 @@
 | **Classification** | Internal — Controlled |
 | **FIPS 199 Impact Level** | HIGH — C: HIGH · I: HIGH · A: HIGH |
 | **Control Baseline** | NIST SP 800-53 Rev 5 — HIGH |
-| **Prepared By** | [ISSO Name], Lead Information Security Analyst |
-| **Reviewed By** | [ISSM Name], Deputy Chief Information Security Officer |
-| **Submitted To** | [AO Name], Chief Information Officer (Authorising Official) |
+| **Prepared By** | Chioma Otteh, Lead Information Security Analyst |
+| **Reviewed By** | Jack Taylor, Deputy Chief Information Security Officer |
+| **Submitted To** | Ben Jackson, Chief Information Officer (Authorising Official) |
 | **Date** | 2026|
 | **References** | NIST SP 800-37 Rev 2; NIST SP 800-53 Rev 5; HIPAA Security Rule 45 CFR Part 164 |
 
@@ -451,7 +451,7 @@ Having conducted the full RMF process across all seven steps, compiled all eight
 ║  • HIPAA compliance: 13/17 standards fully compliant; 4 with        ║
 ║    active, documented remediation plans                              ║
 ║                                                                      ║
-║  Signed: [ISSO Name]                     Date: 2025                 ║
+║  Signed: [Chioma Otteh]                     Date: 2026             ║
 ║          Lead Information Security Analyst                           ║
 ║                                                                      ║
 ╚══════════════════════════════════════════════════════════════════════╝
@@ -472,7 +472,7 @@ Having conducted the full RMF process across all seven steps, compiled all eight
 ║  healthcare system, and the identified gaps are being actively       ║
 ║  remediated with appropriate urgency.                                ║
 ║                                                                      ║
-║  Signed: [ISSM Name]                     Date: 2025                 ║
+║  Signed: [Jack Taylor]                     Date: 2026               ║
 ║          Deputy Chief Information Security Officer                   ║
 ║                                                                      ║
 ╚══════════════════════════════════════════════════════════════════════╝
@@ -520,8 +520,8 @@ Having reviewed the complete NEXUS ATO security package (References 1–8), cons
 | **Authorization Decision** | ✅ **AUTHORITY TO OPERATE — GRANTED** |
 | **Authorization Type** | Full ATO — Option A |
 | **ATO Term** | 3 years |
-| **Effective Date** | 2025 |
-| **Expiry Date** | 2028 |
+| **Effective Date** | 2026 |
+| **Expiry Date** | 2029 |
 | **Conditions** | As listed in Section 11 — all conditions accepted |
 | **Residual Risk Accepted** | Medium — consistent with HIGH-impact healthcare system; all critical controls verified; no patient safety events from identified gaps |
 | **Basis for Decision** | 198/221 controls satisfied; 0 critical findings; MFA pre-condition met; SCA recommendation reviewed; clinical necessity; positive risk trajectory; HIPAA programme functional |
@@ -529,78 +529,18 @@ Having reviewed the complete NEXUS ATO security package (References 1–8), cons
 
 ### Risk Acceptance Statement
 
-> *"I, [AO Name], in my capacity as Authorising Official for the NEXUS Electronic Health Records System, have reviewed the complete security authorization package (References 1–8). I accept the residual risk of operating NEXUS as documented in this authorization recommendation, subject to the conditions detailed in Section 11. I understand that this authorization covers the system boundary defined in the System Security Plan (NEXUS-RMF-SSP-001) and that significant changes to that boundary require a new security impact assessment and potential reauthorisation. I accept responsibility for this risk decision on behalf of Nexus Health System."*
+> *"I, Ben Jackson, in my capacity as Authorising Official for the NEXUS Electronic Health Records System, have reviewed the complete security authorization package (References 1–8). I accept the residual risk of operating NEXUS as documented in this authorization recommendation, subject to the conditions detailed in Section 11. I understand that this authorization covers the system boundary defined in the System Security Plan (NEXUS-RMF-SSP-001) and that significant changes to that boundary require a new security impact assessment and potential reauthorisation. I accept responsibility for this risk decision on behalf of Nexus Health System."*
 
 ### Signatures
 
 | Role | Name | Title | Signature | Date |
 |---|---|---|---|---|
-| Prepared By | [ISSO Name] | Lead Information Security Analyst | _________________________ | 2025 |
-| Reviewed By | [ISSM Name] | Deputy Chief Information Security Officer | _________________________ | 2025 |
-| System Owner Acknowledgement | [SO Name] | Director of Clinical Informatics | _________________________ | 2025 |
-| **Authorising Official Decision** | **[AO Name]** | **Chief Information Officer** | _________________________ | **2025** |
+| Prepared By | Chioma Otteh | Lead Information Security Analyst | _________________________ | 2026 |
+| Reviewed By | [Jack taylor] | Deputy Chief Information Security Officer | _________________________ | 2026 |
+| System Owner Acknowledgement | Jack Taylor | Director of Clinical Informatics | _________________________ | 2026 |
+| **Authorising Official Decision** | **Ben Jackson** | **Chief Information Officer** | _________________________ | **2026** |
 
----
 
-## 13. GitHub Portfolio Integration
-
-### Repository Location
-
-```
-nexus-ehr-rmf/
-├── README.md                              ← Root portfolio overview
-├── architecture-diagram.png               ← Ref 1 — System Boundary Diagram
-├── 01-prepare/                            ← Step 1
-├── 02-categorise/                         ← Ref 2 — FIPS 199
-├── 03-select/                             ← Ref 3 — Control Baseline
-├── 04-implement/                          ← Ref 4 — SSP Cover Page
-├── risk-assessment/                       ← Ref 5 — Risk Register
-├── 05-assess/                             ← Ref 6 — SAR Findings
-├── 06-authorise/                          ← Ref 7 — POA&M Tracker
-├── authorization/                         ← THIS FOLDER
-│   ├── README.md
-│   ├── authorization-recommendation.md    ← Ref 8 — THIS DOCUMENT
-│   ├── ato-package-index.md
-│   └── executive-risk-summary.md
-└── 07-monitor/                            ← Step 7
-```
-
-### Upload Instructions
-
-1. Go to your `nexus-ehr-rmf` repository on GitHub
-2. Click **Add file → Create new file**
-3. Type the path: `authorization/authorization-recommendation.md`
-4. Paste the full contents of this document
-5. Commit message: `Authorization: Add Authorization Recommendation (Ref 8) — ATO granted — NEXUS EHR`
-
-### Root README Final Update
-
-```markdown
-| Auth | [Authorization](./authorization/) | ✅ Complete | Ref 8 · Full ATO Package · ATO Granted 2025 · 3-Year Term |
-```
-
-### LinkedIn Portfolio Post (Final)
-
-> 🎯 **NEXUS EHR RMF Portfolio — Complete**
->
-> I've built a complete end-to-end NIST RMF implementation for NEXUS, a fictional HIPAA-regulated hybrid EHR system, across 8 formal references:
->
-> ✅ Ref 1 — System Boundary Diagram (3-zone hybrid architecture)
-> ✅ Ref 2 — FIPS 199 HIGH categorisation (C/I/A all HIGH)
-> ✅ Ref 3 — NIST 800-53 Rev 5 HIGH baseline (221 controls, 21 tailoring decisions)
-> ✅ Ref 4 — System Security Plan (10 sections, 219/221 controls implemented)
-> ✅ Ref 5 — Risk Register (28 risks, MITRE ATT&CK mapped, multi-site healthcare context)
-> ✅ Ref 6 — SAR Findings Summary (221 controls assessed, 18 findings, pen test completed)
-> ✅ Ref 7 — POA&M Tracker (18 items tracked, ATO conditions managed)
-> ✅ Ref 8 — Authorization Recommendation (ATO granted, risk posture analysis)
->
-> The project covers real-world GRC skills: HIPAA compliance mapping, threat modelling, control tailoring, security assessment methodology, risk acceptance decisions, and continuous monitoring programme design.
->
-> 🔗 [GitHub Repository Link]
->
-> #GRC #NIST #RMF #HIPAA #Cybersecurity #HealthcareSecurity #InfoSec
-
----
 
 *Document Reference: NEXUS-RMF-AUTH-003 — Reference 8 | Version 1.0 — Final | Classification: Internal — Controlled*
 *NEXUS EHR is a fictional system created for a GRC portfolio demonstration. All names, data, and system details are illustrative only.*
