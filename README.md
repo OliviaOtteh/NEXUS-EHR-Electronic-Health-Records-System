@@ -193,7 +193,7 @@ Identify threats and vulnerabilities specific to a multi-site healthcare environ
 Develop a SAP and SAR to test whether Nexus's controls are working as intended.
 
 *Ref 6: SAR Findings Summary*
-![SAR](./diagrams/SAR_Findings.png)
+![SAR](./sar-findings-summary.md)
 
 ---
 
