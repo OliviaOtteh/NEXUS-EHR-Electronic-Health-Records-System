@@ -6,7 +6,7 @@
 | **Document Reference** | NEXUS-RMF-POAM-001 — **Reference 7** |
 | **Document Type** | Plan of Action and Milestones (POA&M) Tracker |
 | **System Name** | NEXUS Electronic Health Records System |
-| **Version** | 1.0 — Current |
+| **Version** | 1.2 — Current |
 | **Classification** | Internal — Controlled |
 | **ISSO** | [Name], Lead Information Security Analyst |
 | **System Owner** | [Name], Director of Clinical Informatics |
@@ -704,9 +704,9 @@ For each POA&M item to be marked CLOSED by the ISSO, the following evidence must
 
 | Role | Name | Signature | Date |
 |---|---|---|---|
-| ISSO (POA&M Manager) | [Name] | _________________________ | 2025 |
-| System Owner | [Name] | _________________________ | 2025 |
-| **Authorising Official** | **[Name]** | _________________________ | **2025** |
+| ISSO (POA&M Manager) | [Chioma Otteh] | _________________________ | 2026 |
+| System Owner | [Jack Taylor] | _________________________ | 2026 |
+| **Authorising Official** | **[Ben Jackson| _________________________ | **2026** |
 
 ---
 
