@@ -177,7 +177,7 @@ Select and tailor security controls from NIST SP 800-53 Rev 5 based on Nexus's H
 Document how each selected control is implemented within Nexus.
 
 *Ref 4: SSP Cover Page*
-![SSP](./diagrams/SSP_Cover.png)
+![SSP](./ssp-cover-page.md)
 
 ---
 
