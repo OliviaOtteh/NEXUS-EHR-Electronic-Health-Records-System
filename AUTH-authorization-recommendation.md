@@ -118,7 +118,7 @@ The following table presents all eight references that constitute the complete N
 
 | Ref | Title | Document Ref | RMF Step | Key Content | Location |
 |---|---|---|---|---|---|
-| **Ref 1** | System Boundary Diagram | N/A | Step 1 — Prepare | Three-zone hybrid architecture: Internet Zone, AWS Cloud Zone, On-Premises Hospital Zone; all interconnections including VPN tunnel | [architecture-diagram.png](./Architecture-diagram.png) |
+| **Ref 1** | System Boundary Diagram | N/A | Step 1 — Prepare | Three-zone hybrid architecture: Internet Zone, AWS Cloud Zone, On-Premises Hospital Zone; all interconnections including VPN tunnel | [architecture-diagram.png](https://github.com/OliviaOtteh/Architecture_diagram.png) |
 | **Ref 2** | FIPS 199 Security Categorisation | NEXUS-RMF-CAT-001 | Step 2 — Categorise | System impact level: HIGH across all three objectives (C/I/A); 15 information types mapped to SP 800-60; full justification for each objective | [categorise/fips199-system-categorisation.md](./fips199-system-categorisation.md) |
 | **Ref 3** | Control Baseline Summary | NEXUS-RMF-SEL-001 | Step 3 — Select | 221 controls selected from NIST SP 800-53 Rev 5 HIGH baseline; 21 tailoring decisions documented; HIPAA mapping; AWS inherited controls | [select/control-baseline-summary.md](./control-baseline-summary.md) |
 | **Ref 4** | SSP Cover Page | NEXUS-RMF-SSP-001 | Step 4 — Implement | System identification; key personnel; applicable laws; version history; 10-section SSP index; 5-party approval block | [implement/ssp-cover-page.md](./ssp-cover-page.md) |
