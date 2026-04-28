@@ -1,5 +1,5 @@
 ## NEXUS EHR (Electronic Health Records System)
-A simulated NIST RMF portfolio project for Nexus, a fictional Integrated Health Records System EHR). Covers system categorization, control selection, SSP, risk assessment, POA&M, ATO, and continuous monitoring. Built for learning purposes only.
+A simulated NIST RMF portfolio project for Nexus, a fictional Electronic Health Records System EHR). Covers system categorization, control selection, SSP, risk assessment, POA&M, ATO, and continuous monitoring. Built for learning purposes only.
 
 # PROJECT NAME
 
