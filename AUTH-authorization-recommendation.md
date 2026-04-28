@@ -434,7 +434,7 @@ Having conducted the full RMF process across all seven steps, compiled all eight
 ║                                                                      ║
 ║  I recommend the Authorising Official GRANT FULL AUTHORITY TO       ║
 ║  OPERATE (Option A) for the NEXUS Electronic Health Records          ║
-║  System for a 3-year term (2025–2028), subject to the conditions    ║
+║  System for a 3-year term (2026–2029), subject to the conditions    ║
 ║  detailed in Section 11 of this document.                            ║
 ║                                                                      ║
 ║  Basis:                                                              ║
