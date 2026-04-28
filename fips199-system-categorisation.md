@@ -11,9 +11,9 @@
 | **System Abbreviation** | NEXUS EHR |
 | **Version** | 1.0 |
 | **Classification** | Internal — Controlled |
-| **Prepared By** | [ISSO Name], Lead Information Security Analyst |
-| **Reviewed By** | [System Owner Name], Director of Clinical Informatics |
-| **Approved By** | [AO Name], Chief Information Officer |
+| **Prepared By** | Chioma Otthe, Lead Information Security Analyst |
+| **Reviewed By** | Jack Taylor, Director of Clinical Informatics |
+| **Approved By** | Ben jackson, Chief Information Officer |
 | **Date** | 2025 |
 | **References** | FIPS Publication 199 · NIST SP 800-60 Vol 1 Rev 1 · NIST SP 800-60 Vol 2 Rev 1 · NIST SP 800-37 Rev 2 · HIPAA Security Rule 45 CFR Part 164 |
 
