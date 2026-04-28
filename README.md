@@ -201,7 +201,7 @@ Develop a SAP and SAR to test whether Nexus's controls are working as intended.
 Track all findings and weaknesses with remediation plans and target completion dates.
 
 *Ref 7: POA&M Tracker*
-![POAM](./diagrams/POAM_Tracker.png)
+![POAM](./poam-tracker.md)
 
 ---
 
