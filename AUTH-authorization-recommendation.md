@@ -16,7 +16,7 @@
 ║                              Security Analyst                            ║
 ║         Reviewed By        : [ISSM Name], Deputy CISO                   ║
 ║         Submitted To       : [AO Name], Chief Information Officer        ║
-║         Date               : 2025                                        ║
+║         Date               : 2026                                    ║
 ║                                                                          ║
 ╚══════════════════════════════════════════════════════════════════════════╝
 ```
@@ -36,7 +36,7 @@
 | **Prepared By** | [ISSO Name], Lead Information Security Analyst |
 | **Reviewed By** | [ISSM Name], Deputy Chief Information Security Officer |
 | **Submitted To** | [AO Name], Chief Information Officer (Authorising Official) |
-| **Date** | 2025 |
+| **Date** | 2026|
 | **References** | NIST SP 800-37 Rev 2; NIST SP 800-53 Rev 5; HIPAA Security Rule 45 CFR Part 164 |
 
 ---
@@ -55,9 +55,8 @@
 10. [Formal Authorization Recommendation](#10-formal-authorization-recommendation)
 11. [Conditions of Authorization](#11-conditions-of-authorization)
 12. [Authorization Decision Record](#12-authorization-decision-record)
-13. [GitHub Portfolio Integration](#13-github-portfolio-integration)
 
----
+
 
 ## 1. Purpose and Scope
 
@@ -87,7 +86,6 @@ This recommendation covers the full NEXUS system boundary as documented in the S
 - On-Premises Hospital Zone (Data Tier, Security and Audit, Hospital Endpoints)
 - All documented interconnections and third-party connections
 
----
 
 ## 2. System Overview
 
@@ -113,7 +111,6 @@ Unlike most enterprise IT systems, the authorization decision for NEXUS carries 
 
 The AO must balance two forms of harm: security risk (from granting ATO) and operational/patient safety risk (from denying or significantly delaying ATO).
 
----
 
 ## 3. ATO Package — All Eight References
 
