@@ -6,14 +6,14 @@
 | **Document Reference** | NEXUS-RMF-POAM-001 — **Reference 7** |
 | **Document Type** | Plan of Action and Milestones (POA&M) Tracker |
 | **System Name** | NEXUS Electronic Health Records System |
-| **Version** | 1.2 — Current |
+| **Version** | 1.0 — Current |
 | **Classification** | Internal — Controlled |
 | **ISSO** | [Name], Lead Information Security Analyst |
 | **System Owner** | [Name], Director of Clinical Informatics |
 | **Authorising Official** | [Name], Chief Information Officer |
-| **ATO Grant Date** | 2025 |
-| **POA&M Initiated** | 2025 (post-SAR) |
-| **Last Updated** | 2025 |
+| **ATO Grant Date** | 2026 |
+| **POA&M Initiated** | 2026 (post-SAR) |
+| **Last Updated** | 2026 |
 | **Next Monthly Review** | [Date] |
 | **References** | NIST SP 800-37 Rev 2; SAR Findings Summary (NEXUS-RMF-SAR-001); Risk Register (NEXUS-RMF-RA-002); OMB Memorandum M-02-01 |
 
